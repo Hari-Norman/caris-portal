@@ -1,0 +1,226 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    background-image: url(img/bg-header.jpg);
+    height: 96px;
+    width: 100%;
+    color: white;
+    text-decoration: none;
+}
+#menu{
+    display: inline-block;
+    list-style-type: none;
+    float: right;
+    margin-top: 35px;
+}
+#menu li{
+    display: inline-block;
+    margin:  0 1rem;
+}
+#logo{
+    background-image: url(img/logo.png);
+    /* height: 77px;
+    width: 146px; */
+    display: inline-block;
+    background-repeat: no-repeat;
+    margin-top: 10px;
+}
+#settings{
+    background-image: url(img/cog.png);
+    height: 26px;
+    width: 26px;
+    background-repeat: no-repeat;
+    vertical-align: middle;
+}
+#info{
+    background-image: url(img/question-circle.png);
+    height: 26px;
+    width: 26px;
+    background-repeat: no-repeat;
+    vertical-align: middle;
+}
+.menu-item{
+    margin:  0 1rem;
+}
+.heading {
+    font-size:21px;
+    font-weight: 500;
+}
+.heading::before {
+    content:'';
+    background: #2b06af;
+    height:3px;
+    width:100px;
+    margin-left:0;
+    display: block;
+    transform: translateY(10px);
+}
+a {
+    color: black;
+    text-decoration: none;
+}
+.updateprg-bl {
+    width: 49%;
+    background:#0000FF;
+    color:white;
+    border-radius: 15px;
+    margin-top: -1%;
+    margin-bottom: .5%; 
+    padding: 20px 12px; 
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+.updateprg-g {
+    width: 49%;
+    background:#35b65b;
+    color:white;
+    border-radius: 15px;
+    margin-bottom: .5%;
+    padding: 20px 12px; 
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+.updateprg-gr {
+    width: 49%;
+    background:#949494;
+    color:white;
+    border-radius: 15px;
+    margin-bottom: 1%;
+    padding: 20px 12px; 
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+.updateprg:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.latest-hd{
+    font-weight: bold;
+}
+.dr-name-l{
+    font-weight: bold;
+    font-size: 12px;
+    float:left;
+}
+.dr-name-r{
+    font-weight: bold;
+    font-size: 12px;
+    float:right;
+}
+.dr-date{
+    margin-top: -15px;
+    font-size: 10px;
+}
+.dr-next{
+    overflow: hidden;
+}
+.word-spacing {
+     margin: 35px;
+     
+}
+.btns-status-bl {
+    background-color: rgb(25, 116, 206);
+    border: none;
+    color: white;
+    padding: 9px 11px;
+    border-radius: 6px;
+    font-size: 12px;
+    cursor: pointer;
+  }
+  .btns-status-bl:hover {
+    background-color: rgb(47, 47, 247);
+  }
+  .btns-status-gr {
+    background-color: rgb(118, 119, 119);
+    border: none;
+    color: white;
+    padding: 9px 11px;
+    border-radius: 6px;
+    font-size: 12px;
+    cursor: pointer;
+  }
+.btns-status-gr:hover {
+    background-color: rgb(81, 81, 82);
+  }
+ 
+  p.upd1 {
+    font-size: 12px;
+  }
+  .message{
+    background: white;
+    padding: 20px 40px;
+    min-width: 120px;
+    border-style: solid;
+    border-width: 1px; 
+    border-color: rgb(210, 210, 221); 
+    border-radius: 6px;
+    border-left: 8px solid #1f11e4;
+  }
+  .msg-p-hdr{
+    font-weight: bold;
+    font-size: 16px;
+    float:left;
+}
+.msg-p-text{
+    font-weight: normal;
+    font-size: 13px;
+    float:left;
+    margin:0;
+}
+h4 {
+    font-weight: bold;
+    font-size: 15px;
+}
+h5 {
+    font-weight: bold;
+    font-size: 20px;
+}
+.updateprgl {
+    width: 49%;
+    color:white;
+    border-radius: 15px;
+    margin-top: -1%;
+    margin-bottom: .5%; 
+    padding: 20px 12px; 
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+.msg-response{
+    font-weight: bold;
+    font-size: 14px;
+    float:left;
+}
+.msg-response-r{
+    font-weight:normal;
+    font-size: 11px;
+    float:right;
+}
+.vertical-line {
+    border-left: 6px solid green;
+    height: 500px;
+    /* position: absolute; */
+    left: 50%;
+    margin-left: 6px;
+}
+.btn-round {
+    box-shadow: none;
+    padding: 3px 15px;
+    border: none;
+    border-radius: 20px;
+    color:white;
+    font-size: 12px;
+    background-color: rgb(72, 72, 253);
+}
+.msg-date{
+    margin-top: -5px;
+    font-size: 12px;
+}
+.status {
+    margin-top: -17px;
+}
+.v-line {
+ border-right: 1px solid;
+}
